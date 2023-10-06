@@ -1,0 +1,41 @@
+In order to connect your on premises data centers to the cloud with a physical cable, what service would you use?
+
+A. Azure ExpressRoute
+B. Azure VPN Gateway
+C. Azure Virtual WAN
+D. Azure Site Recovery
+
+Answer: A
+
+Virtual WAN test question:
+
+You have an Azure subscription named Subscription1 that contains 45 VNETs and 1000 VMs.  What is the best way to connect all of the VNETs together?
+
+A. Create a VNET peering between all of the VNETs
+B. Create a VNET-to-VNET VPN connection between all of the VNETs
+C. Create a VNET-to-VNET ExpressRoute connection between all of the VNETs
+D. Create a VNET-to-VNET VPN connection between all of the VNETs
+E. Create a WAN connection between all of the VNETs
+
+
+Answer: E
+
+
+You want to store MP4 videos in Azure.  What would storage account settings would be the best choice?
+
+A. Azure standard storage
+B. Azure premium storage
+C. Azure block blob storage
+D. Azure page blob storage
+
+Answer: C
+
+What setting do you need to change in a VNET peering scenario to allow traffic to flow between two VNETs?
+
+A. Allow gateway transit
+B. Allow forwarded traffic
+C. Allow virtual network access
+D. Allow remote gateway management
+
+Answer: B
+

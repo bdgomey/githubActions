@@ -1,0 +1,13 @@
+# Deploy flask app
+
+FROM python:3.12-rc-bookworm
+
+WORKDIR /app
+
+COPY . .
+
+RUN pip install -r requirements.txt
+
+EXPOSE 5000
+
+CMD ["python", "app.py"]
