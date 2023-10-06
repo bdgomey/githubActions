@@ -11,12 +11,12 @@ jobs:
 
         steps:
             - uses: actions/checkout@v4
-            - name: set up python by 3.x
+            - name: set up python by 3.11
               uses: actions/setup-python@v4
               with:
-                python-version: '3.x'
-            - name: 
-              run: python -c "import sys; print(sys.version)"
+                python-version: '3.11'
+            - name: install requirements
+              run: pip install -r requirements.txt
 
 
 
